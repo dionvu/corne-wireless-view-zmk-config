@@ -47,14 +47,14 @@
 
             display-name = "Base";
             bindings = <
-&trans  &kp Q  &kp W             &kp E              &kp R          &kp T             &kp Y      &kp U          &kp I          &kp O         &kp P          &trans
-&trans  &kp A  &HRML LEFT_ALT S  &HRML LEFT_META D  &HRML LCTRL F  &kp G             &kp H      &HRMR RCTRL J  &HRMR RMETA K  &HRMR RALT L  &kp BACKSPACE  &trans
-&trans  &kp Z  &kp X             &kp C              &kp V          &kp B             &kp N      &kp M          &kp COMMA      &kp DOT       &kp ENTER      &trans
-                                 &trans             &lt 1 TAB      &kp LEFT_SHIFT    &kp SPACE  &lt 2 ESCAPE   &trans
+&trans  &kp Q  &kp W             &kp E              &kp R          &kp T        &kp Y       &kp U          &kp I          &kp O         &kp P          &trans
+&trans  &kp A  &HRML LEFT_ALT S  &HRML LEFT_META D  &HRML LCTRL F  &kp G        &kp H       &HRMR RCTRL J  &HRMR RMETA K  &HRMR RALT L  &kp BACKSPACE  &kp ENTER
+&trans  &kp Z  &kp X             &kp C              &kp V          &kp B        &kp N       &kp M          &kp COMMA      &kp DOT       &kp ENTER      &trans
+                                 &trans             &lt 1 TAB      &kp SPACE    &kp LSHIFT  &lt 2 ESCAPE   &mo 3
             >;
         };
 
-        left_layer {
+        right_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -63,14 +63,14 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp N1   &kp N2        &kp N3           &kp N4      &kp N5    &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &trans
-&trans  &kp DEL  &kp CAPSLOCK  &kp PRINTSCREEN  &kp INSERT  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
-&trans  &trans   &trans        &trans           &trans      &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
-                               &trans           &trans      &trans    &trans    &trans         &trans
+&trans  &kp N1   &kp N2        &kp N3      &kp N4           &kp N5    &kp N6    &kp N7         &kp N8       &kp N9     &kp N0  &trans
+&trans  &kp DEL  &kp CAPSLOCK  &kp INSERT  &kp PRINTSCREEN  &trans    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans  &trans
+&trans  &trans   &trans        &trans      &trans           &trans    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans  &trans
+                               &trans      &trans           &trans    &trans    &trans         &trans
             >;
         };
 
-        right_layer {
+        left_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -86,7 +86,7 @@
             >;
         };
 
-        layer_3 {
+        func {
             bindings = <
 &bt BT_CLR  &kp F1  &kp F2        &kp F3        &kp F4        &kp F5     &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &kp F7  &kp F8        &kp F9        &kp F10       &kp F11    &trans  &trans  &trans  &trans  &trans  &trans
