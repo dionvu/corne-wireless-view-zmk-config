@@ -50,7 +50,7 @@
 &trans  &kp Q  &kp W             &kp E              &kp R          &kp T        &kp Y       &kp U          &kp I          &kp O         &kp P          &trans
 &trans  &kp A  &HRML LEFT_ALT S  &HRML LEFT_META D  &HRML LCTRL F  &kp G        &kp H       &HRMR RCTRL J  &HRMR RMETA K  &HRMR RALT L  &kp BACKSPACE  &kp ENTER
 &trans  &kp Z  &kp X             &kp C              &kp V          &kp B        &kp N       &kp M          &kp COMMA      &kp DOT       &kp ENTER      &trans
-                                 &trans             &lt 1 TAB      &kp SPACE    &kp LSHIFT  &lt 2 ESCAPE   &mo 3
+                                 &trans             &lt 2 TAB      &kp SPACE    &kp LSHIFT  &lt 1 ESCAPE   &mo 3
             >;
         };
 
